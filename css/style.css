@@ -1,0 +1,233 @@
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+}
+
+.conteiner {
+  width: 1200;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  color: var(--title-text-color);
+  background-color: white;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Логотип сайта */
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .web {
+  color: var(--accent-color);
+}
+/* навигация по сайту */
+.site-nav {
+  display: flex;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .item + .item {
+  margin-left: 50px;
+}
+.main-nav {
+  display: flex;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.active:visited {
+  color: var(--accent-color);
+}
+
+/*Номер телефона и Email  */
+
+.tel {
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.tel:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+.mail {
+  color: var(--text-color);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.mail:hover,
+.tel:focus {
+  color: var(--accent-color);
+}
+
+/* Header */
+.page-header {
+}
+
+/* nav */
+.auth-nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Банер  */
+.hero {
+  margin-top: 0;
+  margin-bottom: 94px;
+
+  text-align: center;
+}
+.hero > h1 {
+  margin-bottom: 35px;
+  margin-top: 0;
+  /* color: #fff; */
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.button {
+  color: #fff;
+  background-color: var(--accent-color);
+  display: inline-block;
+  border: 1px solid black;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+/* Особености */
+
+.features {
+  margin-top: 0;
+  margin-bottom: 94px;
+}
+
+.features .title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features p {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*Чем мы занимаемся */
+.about-section {
+  margin-bottom: 94px;
+  margin-top: 0;
+}
+.about-section .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+.team-section {
+  padding: 94px 215px;
+  background-color: #f5f4fa;
+}
+.team-section .title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: #fff;
+}
+
+.team .name {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.team p {
+  color: var(--text-color);
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Футер */
+.footer-section {
+  background-color: #2f303a;
+}
+.footer-section .logo {
+  color: #fff;
+}
+.address {
+  color: #fff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
